@@ -1,0 +1,105 @@
+\documentclass[10pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic} 
+\usepackage[utf8]{inputenc} 
+\usepackage{graphicx}
+
+\includegraphics{fichier.eps} 
+
+\usepackage{geometry}
+
+\geometry{margin=25pt}
+
+\firstname{Youcef     }
+\familyname {El Kamel}
+\title{Software Engineer EPITA France
+}              
+\address{58 rue riquet}{Paris 75 019}   
+\mobile{06 13 78 11 87}                  
+\email{yelkamel@gmail.com}                              
+\photo[64pt]{picture.png} 
+\quote{Looking for international opportunities from september}                
+
+\usepackage{moderntimeline}
+\tlmaxdates{2009}{2017}
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\usepackage{multibib}
+\newcites{book,misc}{{Books},{Others}}
+
+\nopagenumbers{}                         
+\begin{document}
+\maketitle
+
+
+\section{Education}
+
+\tlcventry{2015}{2010}{Epita graduate school of computer science}{}{}{}{}{}
+\tldatecventry{2010}{\textit{French scientific Baccalauréat with honours}}{Option engineer science}{Paris}{}{}{}
+
+
+\section{Experience}
+\subsection{Work}
+
+\tlcventry{2015}{2013}{Project Manager ERP PeopleSoft}{Saint-Gobain DSI groupe}
+{}{}{
+\begin{itemize}%
+\item Understanding the needs from the business teams. 
+\item Functional and technical specifications.
+\item Programming PeopleCode / SQL.
+\item Relationship with offshore teams of Saint-Gobain in India to monitor specific developments.
+\item Support User on an international level. 
+%\item Adaptation du code des applications de la société pour le rendre compatible Linux.\newline{}
+\end{itemize}}
+
+\tldatelabelcventry{2012}{Summer 2012}{Network administrator}{SARL Awal Telecom Paris}{}{}{}
+%{Production
+%\begin{itemize}
+% \item Manage network cabling, routing and security %(antivirus / firewall). 
+% \item Application counts the duration of computer use %per customer.
+%\end{itemize}}
+
+\tlcventry{2012}{2011}{Librarian}{Epita's librabry}{IT section departement.}{}{}
+
+\tlcventry{2011}{2010}{Maintenance technician}{SARL BelAir Paris}{Internet cafe}{I had to maintain 12 computer workstations.}{}
+
+
+
+\tldatelabelcventry{2010}{December 2009}{\small Helps to distribute food for the poor}{Resto du Coeur}{Paris}{}{}{}
+
+
+\section {Technical Skills}
+\subsection{Application developement}   
+\cvline{}{C C++ Java \texttt{C\#} Perl .NET}{}
+\cvline{}{HTML5 CSS3 PHP XML PL/SQL}{}
+\cvline{}{UML Latex Objective-C PeopleCode}{}
+\subsection{Operating Systems and software}
+\cvline {}{Linux PeopleSoft MacOS Windows MSProject Vim hardware Eclipse SQLDevelopper PowerAMC}{}{}
+
+
+\section{Studies Projects}
+\cvline{42SH}{\small Implementation of a unix Shell like bash (4 pers - 1 month)}
+\cvline{HelloCine}{\small Hellocine is a JAVA application on BlackBerry OS which interact with a web service (parsing XML) (2 weeks)}
+\cvline{Cartotatix}{\small A software of cartography in OCaml with Open Gl, lablgtk and SDL. (2 pers - 3 months}
+\cvline{Sleep n'rave}{\small RGP action games in C\# there had ten levels and you can play with two players. (3 pers - 3 months)}
+\cvline{Tiger Compiler}{\small compiler for the language Tiger in team. This language used in the book Modern Compiler Implementation in C++ with Bison and Flex (3 pers - 4 months)}
+\cvline{MyPhotoshop}{\small software of processing and creation of image like Photoshop in JAVA. (3 weeks)}
+
+
+%\section{Langues}
+%\cvlanguage{Anglai}{medium}{800/1000 TOEIC}
+%\cvlanguage{Anglais}{medium}{800/1000 TOEIC}
+%\cvlanguage{Arabe}{speak}{}
+
+\section{Association and hobbies}
+\cvline{Epitanime}{\small Association on Asian culture and Japanimation}
+\cvline{StaffCom}{\small Manage communication events of EPITA}
+\cvline{Go}{\small An asian game, Average level (13 Kyu)}
+\cvline{Carré d’As}{\small Poker tournaments}
+\cvline{Karate}{\small Brown belt corresponding to the 1st Kyu (9th level)}
+
+\renewcommand{\listitemsymbol}{-} 
+
+
+\end{document}
